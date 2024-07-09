@@ -1705,6 +1705,7 @@ blockquote.style2:after {
 .header.style3 .mini-cart .cart-link {
     color: #343434;
     font-weight: 100;
+    display: none;
 }
 
 .header.style3 .box-search {
@@ -9752,6 +9753,7 @@ li.info-pts {
     background-position: top left;
     margin-right: 20px;
     color: #666;
+    display: none;
 }
 
 .lst-sty {
@@ -10115,4 +10117,11 @@ li.info-pts span {
 .flex {
     display: flex;
     align-items: self-start;
+}
+
+.header.style3 .main-menu > li:nth-child(6),
+.header.style3 .main-menu > li:nth-child(5),
+.header.style3 .main-menu > li:nth-child(4),
+.header.style3 .main-menu > li:nth-child(2){
+    display: none;
 }
