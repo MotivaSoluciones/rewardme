@@ -4228,6 +4228,7 @@ FOOTER
     color: #fff;
     margin-top: 30px;
     padding-top: 20px;
+    display: none;
 
 }
 
@@ -10117,6 +10118,7 @@ li.info-pts span {
 .flex {
     display: flex;
     align-items: self-start;
+    justify-content: center;
 }
 
 .header.style3 .main-menu > li:nth-child(6),
